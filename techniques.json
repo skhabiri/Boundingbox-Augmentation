@@ -1,0 +1,20 @@
+{
+  "average_blurring":{"kernel" : 5},
+  "change_to_hsv":{},
+  "change_to_lab":{},
+  "crop":{"percentage":0.8,"startFrom": "TOPLEFT"},
+  "dropout":{"percentage":0.05},
+  "elastic":{"alpha":5,"sigma":0.05},
+  "equalize_histogram":{},
+  "vflip":{"flip":0},
+  "hflip":{"flip":1},
+  "gamma":{"gamma":1.5},
+  "gaussian_noise": {"mean" : 0,"sigma":10},
+  "invert":{},
+  "none":{},
+  "raise_hue": {"power" : 0.9},
+  "resize": {"percentage" : 0.9,"method":"INTER_NEAREST"},
+  "rotate": {"angle" : 90},
+  "shearing": {"a":0.5},
+  "translation": {"x":50,"y":30}
+}

@@ -1,0 +1,9 @@
+[Augmentor]
+PROBLEM = detection
+ANNOTATION_MODE = yolo
+GENERATION_MODE = linear
+OUTPUT_MODE = yolo
+OUTPUT_PATH= tmp_augmented_${Augmentor:OUTPUT_MODE}
+
+
+[Techniques]
